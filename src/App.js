@@ -17,6 +17,7 @@ function App() {
       "row": 100,
       "fund_id": "2114-68",
       "order": "block_num asc",
+      "from_history": true,
     };
     const response = await fetch(URL, {
       method: 'POST',
